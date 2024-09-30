@@ -1,0 +1,31 @@
+<!-- templates/notes.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Notes App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div id="app">
+        <div id="notes">
+            <h2>Notes</h2>
+            <form action="{{ url_for('add_note') }}" method="post">
+                <input type="text" name="title" placeholder="Title" required>
+                <textarea name="content" placeholder="Content" required></textarea>
+                <button type="submit">Add Note</button>
+            </form>
+            <div id="notes-list">
+                {% for note in notes %}
+                    <div class="note">
+                        <h3>{{ note.title }}</h3>
+                        <p>{{ note.content }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+            <a href="{{ url_for('logout') }}">Logout</a>
+        </div>
+    </div>
+</body>
+</html>
