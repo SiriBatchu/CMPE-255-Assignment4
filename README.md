@@ -22,4 +22,14 @@ CRISP-DM, which stands for Cross-Industry Standard Process for Data Mining, is a
 
 6. **Deployment**: Implement the model in a production environment. This phase involves delivering the results to stakeholders, integrating the model into existing systems, or creating a reporting structure.
 
-CRISP-DM is iterative; feedback from any phase can lead to revisiting earlier phases. It’s adaptable across different industries and project types, making it a versatile framework for data-related projects. 
+CRISP-DM is iterative; feedback from any phase can lead to revisiting earlier phases. It’s adaptable across different industries and project types, making it a versatile framework for data-related projects.
+
+Chatgpt chat transcript: https://chatgpt.com/share/67037647-7aec-8004-ac2b-511fc55c42d1
+
+Colab implementation file: https://github.com/SiriBatchu/Sentiment-Analysis-AI-for-DataScience
+
+Youtube link: https://youtu.be/btEOpiChzyE
+
+Medium Link: https://medium.com/@bsirigupta/building-and-deploying-a-sentiment-analysis-model-using-lstm-and-pre-trained-glove-embeddings-a0a1bbda2b67
+
+
