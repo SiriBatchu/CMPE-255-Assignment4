@@ -28,7 +28,7 @@ Chatgpt chat transcript: https://chatgpt.com/share/67037647-7aec-8004-ac2b-511fc
 
 Colab implementation file: https://github.com/SiriBatchu/Sentiment-Analysis-AI-for-DataScience
 
-Youtube link: https://youtu.be/btEOpiChzyE
+Youtube link: https://www.youtube.com/watch?v=8sdKKgRUH9A
 
 Medium Link: https://medium.com/@bsirigupta/building-and-deploying-a-sentiment-analysis-model-using-lstm-and-pre-trained-glove-embeddings-a0a1bbda2b67
 
